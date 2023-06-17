@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding: 10px 20px;
+  color: #fff;
+  color: black;
+  border-bottom: 2px solid black;
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+
+    .one {
+      width: 63%;
+      height: 45px;
+    }
+  }
+
+  .logo {
+    width: 48%;
+    height: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+
+  .username {
+    margin-right: 10px;
+    text-decoration: underline;
+  }
+
+  .logout-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    color: red;
+  }
+}
