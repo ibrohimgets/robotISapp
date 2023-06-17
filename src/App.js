@@ -60,7 +60,7 @@ const App = () => {
         </Users>
       ),
       children: [
-        { path: "/login", element: <Home /> },
+        { path: "/", element: <Home /> },
         { path: "/about", element: <About /> },
       ],
     },
