@@ -26,7 +26,6 @@ const App = () => {
     } else {
       localStorage.removeItem("userToken");
     }
-    console.log(currentUser);
   }, [currentUser]);
   /************************************************************/
   const Layout = () => {
@@ -61,7 +60,7 @@ const App = () => {
         </Users>
       ),
       children: [
-        { path: "/", element: <Home /> },
+        { path: "/login", element: <Home /> },
         { path: "/about", element: <About /> },
       ],
     },

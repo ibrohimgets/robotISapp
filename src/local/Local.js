@@ -1,9 +1,7 @@
 import { createContext, useEffect, useState } from "react";
 
-// Create a context for the user authentication status
 const AuthContext = createContext();
 
-// Custom hook to access and update user authentication status
 const useAuth = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(() => {
     const storedAuth = localStorage.getItem("isLoggedIn");
@@ -25,7 +23,6 @@ const useAuth = () => {
   return [isLoggedIn, login, logout];
 };
 
-// Component that provides user authentication status through context
 const AuthProvider = ({ children }) => {
   const [isLoggedIn, login, logout] = useAuth();
 
