@@ -5,6 +5,7 @@ import Task2 from "../../images/Task2.png";
 import Motion2 from "../../images/Motion2.png";
 import Scratch from "../../images/Scratch.png";
 import Wizard from "../../images/Wizard.png";
+
 const Home = () => {
   const cardData = [
     {
