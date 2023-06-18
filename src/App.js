@@ -16,7 +16,7 @@ import { AuthProvider } from "./local/Local.js";
 
 const App = () => {
   const [currentUser, setCurrentUser] = useState(
-    localStorage.getItem("userToken") || null
+    localStorage.getItem("userToken") || true
   );
 
   /************************************************************/
