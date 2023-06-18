@@ -16,7 +16,7 @@ import { AuthProvider } from "./local/Local.js";
 
 const App = () => {
   const [currentUser, setCurrentUser] = useState(
-    localStorage.getItem("userToken") || true
+    localStorage.getItem("userToken") || false
   );
 
   /************************************************************/
@@ -45,9 +45,10 @@ const App = () => {
   /****************/
 
   const Users = ({ children }) => {
-    if (currentUser) {
+    if (!currentUser) {
       return <Navigate to="/login" />;
     }
+
     return children;
   };
   /****************/
