@@ -46,7 +46,9 @@ const App = () => {
 
   const Users = ({ children }) => {
     if (currentUser) {
-      return <Navigate to="/login" />;
+      return (
+        <SignIn setCurrentUser={setCurrentUser} currentUser={currentUser} />
+      );
     }
     return children;
   };
