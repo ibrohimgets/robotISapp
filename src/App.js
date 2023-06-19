@@ -1,4 +1,6 @@
 import { React, useState, useEffect } from "react";
+import Error from "./images/Oopsbutton-removebg-preview.png";
+import "./app.scss";
 import {
   Outlet,
   createBrowserRouter,
@@ -81,7 +83,20 @@ const App = () => {
 
   return (
     <AuthProvider>
-      <RouterProvider router={router} />
+      <div className="app">
+        <div className="error">
+          <img src={Error} alt="pic" />
+          <h2>
+            对不起，
+            <br />
+            此页面无法在手机上打开
+          </h2>
+        </div>
+
+        <div className="main">
+          <RouterProvider router={router} />
+        </div>
+      </div>
     </AuthProvider>
   );
 };

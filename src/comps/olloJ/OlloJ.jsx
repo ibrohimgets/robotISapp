@@ -69,7 +69,7 @@ const OlloJ = () => {
     {
       id: 5,
       profilePic: DOC,
-      title: "Wizard 2.0",
+      title: "证书",
       instructions:
         "此模块包含OLLO J讲师证书和学生毕业证书模版。该模版仅供参考,如需制作证,请联系ROBOTIS中国公司进行授权后执行.",
       href: "wizard ezyzip.zip",
@@ -78,7 +78,7 @@ const OlloJ = () => {
     {
       id: 5,
       profilePic: Steam,
-      title: "Wizard 2.0",
+      title: "课程架构",
       instructions:
         "此模块为OLLO J课程架构,包含48课时的授课指导架构,每一节课时的知识点汇总.",
       href: "wizard ezyzip.zip",

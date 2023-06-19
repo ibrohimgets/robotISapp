@@ -1,45 +1,50 @@
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-  align-items: center;
-  padding: 10px 20px;
-  color: #fff;
-  color: black;
-  border-bottom: 2px solid black;
-
-  .logo-container {
+.nav {
+  .open {
+    display: none;
+  }
+  .navbar {
     display: flex;
+    justify-content: space-between;
+    text-align: center;
     align-items: center;
-    margin-left: 40px;
-    width: 40%;
+    padding: 10px 20px;
+    color: #fff;
+    color: black;
+    border-bottom: 2px solid black;
 
-    .one {
+    .logo-container {
+      display: flex;
+      align-items: center;
+      margin-left: 40px;
       width: 40%;
-      height: 40px;
+
+      .one {
+        width: 40%;
+        height: 40px;
+      }
+      .logo {
+        width: 20%;
+        height: 35px;
+        margin-left: 10px;
+        cursor: pointer;
+      }
     }
-    .logo {
-      width: 20%;
-      height: 35px;
-      margin-left: 10px;
+
+    .user-info {
+      display: flex;
+      align-items: center;
+    }
+
+    .username {
+      margin-right: 10px;
+      text-decoration: underline;
+    }
+
+    .logout-icon {
+      width: 30px;
+      height: 30px;
       cursor: pointer;
+      color: red;
     }
-  }
-
-  .user-info {
-    display: flex;
-    align-items: center;
-  }
-
-  .username {
-    margin-right: 10px;
-    text-decoration: underline;
-  }
-
-  .logout-icon {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    color: red;
   }
 }

@@ -6,11 +6,12 @@
 
     .card {
       display: flex;
-      background-color: #ffffff;
+      background-color: transparent;
       margin: 10px;
       border-radius: 10px;
       padding: 20px;
       box-shadow: 20px 10px 15px rgba(29, 26, 26, 0.1);
+
       .left_side {
         display: flex;
         flex-direction: column;
@@ -47,7 +48,7 @@
           flex-direction: column;
 
           p {
-            font-size: 22px;
+            font-size: 21px;
             border: 0.01px solid #000000;
             border-radius: 10px;
             font-family: Georgia, "Times New Roman", Times, serif;
