@@ -84,13 +84,15 @@ const App = () => {
   return (
     <AuthProvider>
       <div className="app">
-        <div className="error">
-          <img src={Error} alt="pic" />
-          <h2>
-            对不起，
-            <br />
-            此页面无法在手机上打开
-          </h2>
+        <div className="err">
+          <div className="error">
+            <img src={Error} alt="pic" />
+            <h2>
+              对不起，
+              <br />
+              此页面无法在手机上打开
+            </h2>
+          </div>
         </div>
 
         <div className="main">
