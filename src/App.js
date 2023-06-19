@@ -8,7 +8,7 @@ import {
 import Navbar from "./comps/navbar/Navbar.jsx";
 import Leftbar from "./comps/leftbar/Leftbar.jsx";
 import Home from "./comps/home/Home.jsx";
-import About from "./comps/about/About.jsx";
+import OlloJ from "./comps/olloJ/OlloJ.jsx";
 import SignUp from "./comps/signUp/SignUp.jsx";
 import SignIn from "./comps/signIn/SignIn.jsx";
 import "./App.css";
@@ -63,7 +63,7 @@ const App = () => {
       ),
       children: [
         { path: "/", element: <Home /> },
-        { path: "/about", element: <About /> },
+        { path: "/about", element: <OlloJ /> },
       ],
     },
     {
