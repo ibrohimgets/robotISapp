@@ -3,7 +3,7 @@
   justify-content: space-between;
   text-align: center;
   align-items: center;
-  padding: 10px 20px;
+  padding: 18px 20px;
   color: #fff;
   color: black;
   border-bottom: 2px solid black;
@@ -11,18 +11,19 @@
   .logo-container {
     display: flex;
     align-items: center;
+    margin-left: 40px;
+    width: 40%;
 
     .one {
-      width: 63%;
-      height: 45px;
+      width: 40%;
+      height: 40px;
     }
-  }
-
-  .logo {
-    width: 48%;
-    height: 40px;
-    margin-left: 10px;
-    cursor: pointer;
+    .logo {
+      width: 20%;
+      height: 35px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
   }
 
   .user-info {
